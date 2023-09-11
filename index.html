@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/chat.css">
+    <script src="https://kit.fontawesome.com/626d2df18d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat <i class="fa-solid fa-book-open-reader" style="position: absolute; right: 15px;"></i>
+        </button>
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container-->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+                        <!-- User input-->
+                        <div class="chat-bar-input-block">
+
+                            <div id="columnSelectionContainer">
+                                <!-- Checkboxes will be dynamically added here -->
+                            </div>
+
+                            
+
+                        </div>
+                        <div class="info-display">
+                            <!-- Information will be displayed here -->
+                            <table id="selected-content">
+                                <!-- Table header will be added dynamically in your JavaScript code -->
+                            </table>
+                        </div>
+                        <div id="chat-bar-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="static/scripts/responses.js"></script> -->
+<script src="static/scripts/chat.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // Your JavaScript code goes here
+</script>
+</html>

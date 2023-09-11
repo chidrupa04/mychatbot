@@ -1,0 +1,4 @@
+name,roll_no,question_no,question_text,answer_image,answer_text,answer_expected,score,match_percentage
+Ravi,12,2,color of banana?,https://github.com/Pragament/raw_assets/blob/main/hand_yellow.png?raw=true,yellow,yellow,1,100
+Ravi,12,3,Is tv organic or inorganic?,https://github.com/Pragament/raw_assets/blob/main/hand_organic.png?raw=true,organic,inorganic,0,95
+Adarsh,23,3,Is tv organic or inorganic?,https://raw.githubusercontent.com/Pragament/raw_assets/main/hand_inorganik.png,inorganik,inorganic,0,98
