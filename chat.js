@@ -241,11 +241,22 @@ function csvDataDisplay(parsedData,score,arr){
                   if(score == 2){
                       if (rowData.length === headers.length) {
                           const row = document.createElement("tr");
-                          rowData.forEach(cellData => {
-                              const cell = document.createElement("td");
-                              cell.textContent = cellData;
-                              row.appendChild(cell);
-                          });
+                          for(let z=0;z<rowData.length;z++){
+                            if(arr.includes(headers[z])){
+                            const cell = document.createElement("td");
+                            if(z==4){
+                                const image = document.createElement("img");
+                                image.src = rowData[4]; 
+                                image.alt = "Description of the image";
+                                cell.appendChild(image);
+                            }
+                            else{
+                                cell.textContent = rowData[z];
+                                
+                            }
+                            row.appendChild(cell);
+                            
+                        }};
                           table.appendChild(row);
                       }
                   } 
